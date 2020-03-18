@@ -1,9 +1,12 @@
 {
+  "homepage": "http://lutsenkoanv.github.io/nodejs_app",
   "name": "react_posts_app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -29,6 +32,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0",
+    "gh-pages": "^2.2.0",
     "typescript": "^3.8.3"
   }
 }
