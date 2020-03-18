@@ -1,4 +1,4 @@
 For install:
 
-nmp install
+nmp install\n
 npm run dev
