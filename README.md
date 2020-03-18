@@ -1,5 +1,2 @@
-For install:
-
-nmp install
-
-npm run dev
+install -> npm install
+start -> npm run dev
